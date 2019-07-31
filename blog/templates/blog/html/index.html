@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{% static 'css/index.css' %}">
+  <title>Free Net</title>
+</head>
+<body>
+  <div class="adaptive-block">
+    <header class="header">
+      <div class="header__logo"><img src="{% static 'img/logo.png' %}" alt=""></div>
+      <menu class="header__menu">
+        <li class="header__li"><a href="#" class="header__link">Главная</a></li>
+        <li class="header__li"><a href="#" class="header__link">Категории</a></li>
+        <li class="header__li"><a href="#" class="header__link">Блог</a></li>
+        <li class="header__li"><a href="#" class="header__link">Контакты</a></li>
+        <li class="header__li"><a href="#" class="header__link">О нас</a></li>
+      </menu>
+      <div class="header__choose-os">
+        
+      </div>
+    </header>
+
+    <div class="leftsidebar">
+        <menu class="leftsidebar__menu">
+          <div class="leftsidebar_hot-btn__menu">
+            <img src="{% static 'img/home.png' %}" alt="">
+            <img src="{% static 'img/exclamation.png' %}" alt="">
+            <img src="{% static 'img/burger.png' %}" alt="">
+          </div>
+          <div class="leftsidebar__input"><input type="text" class="leftsidebar__input-search"></div>
+          <div class="leftsidebar__navigation-block">
+            <div class="leftsidebar__title">
+              <li class="leftsidebar__li"><a href="#" class="leftsidebar__li-text">новости</a></li>
+              <img src="{% static 'img/arrow_down.png' %}" alt="" class="arrow_down">
+            </div>
+
+          </div>
+        </menu>
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+  </div>
+</body>
+</html>

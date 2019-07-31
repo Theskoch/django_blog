@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__logo {
+  width: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #5f7a67;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #87a986;
+}
+
+.header__li {
+  margin: 10px 100px;
+  list-style-type: none;
+}
+
+.header__link {
+  color: #fcfffc;
+  text-decoration: none;
+}
+
+.leftsidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px 0 0 0;
+}
+
+.leftsidebar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e0e9e0;
+}
+
+.leftsidebar_hot-btn__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 0 0 0;
+  width: 300px;
+}
+
+.leftsidebar__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.leftsidebar__input-search {
+  width: 215px;
+  border-radius: 10px;
+  margin: 10px 0 0 0;
+}
+
+.leftsidebar__navigation-block {
+  margin: 20px 0 0 0;
+  width: 90%;
+}
+
+.leftsidebar__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #cddaae;
+}
+
+.leftsidebar__li {
+  display: inline;
+  margin: 0 20px 0 0;
+  font-size: 36px;
+  list-style-type: none;
+}
+
+.leftsidebar__li-text {
+  text-decoration: none;
+  color: #fcfffc;
+}
+
+.arrow_down {
+  width: 22px;
+  height: 18px;
+}
+
+.post-space {
+  width: 905px;
+  background: #a0d0f8;
+}
+/*# sourceMappingURL=index.css.map */
